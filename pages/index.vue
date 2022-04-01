@@ -1,4 +1,5 @@
 <template>
+  <!-- Sidebar -->
   <div>
     <!-- Navbar -->
     <b-navbar toggleable="lg" type="dark" variant="info">
@@ -37,7 +38,9 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-
+    <footer>
+      Ini footer
+    </footer>
   </div>
 </template>
 
@@ -46,3 +49,15 @@ export default {
   name: 'IndexPage'
 }
 </script>
+
+<style scoped>
+  footer {
+    text-align: center;
+    width: 100%;
+    background: blue;
+    color: #fff;
+    position: absolute;
+    padding: 12px;
+    bottom: 0px;
+  }
+</style>
